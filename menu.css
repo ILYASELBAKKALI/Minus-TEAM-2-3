@@ -1,0 +1,119 @@
+.largeur1{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.chaquemenu{
+    position: relative;
+    box-shadow: 0 0 12px 0 #10943D;
+    border-radius: 20px;
+    width: 30%;
+    height: 480px;
+}
+.chaquemenu:hover{
+    box-shadow: 0 0 12px 0 black;
+    width: 31%;
+
+}
+.chaquemenu h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.chaquemenu p{
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+.chaquemenu button{
+    position: absolute;
+    bottom: 10px;
+    left:35%;
+    padding: 15px 30px;
+    color: white;
+    background-color: #10943D;
+    border:#10943D ;
+    box-shadow: 0 0 12px 0 #10943D;
+    border-radius: 15px;
+    
+}
+.chaquemenu img{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+}
+.attention{
+    color: #10943D;
+    text-align: center;
+}
+.inputmenu{
+    width: 50%;
+    padding: 15px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 12px 0 #10943D;
+    border: #10943D;
+}
+.flex{
+    margin-bottom: 100px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.emailmenu{
+    width: 70%;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 12px 0 #10943D;
+    border: #10943D;
+}
+.submitmenu{
+    width: 25%;
+    padding: 15px 22px;
+    background-color: #10943D;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 12px 0 white;
+}
+#btm,#batm,#botm,#botme{
+    margin-bottom:60px;
+}
+#top{margin-top: 50px;
+margin-bottom: 20px;
+}
+#bot{
+    margin-bottom: 100px;
+}
+@media screen and (max-width:1000px){
+    .chaquemenu:hover{
+        box-shadow: 0 0 12px 0 black;
+        width: 100%;
+    }
+    .line{
+        flex-direction: column;
+    }
+    .chaquemenu{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .submitmenu,.emailmenu{
+        margin: auto;
+        min-width: 50%;
+    }
+    #top{
+        margin-top: 120px;
+    }
+
+
+}

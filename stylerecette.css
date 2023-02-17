@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Unbounded:wght@900&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.panier{
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.voir{
+    color: #10943D;
+    font-size: larger;
+}
+.panier img{
+    width: 50%;
+}
+.recette{
+    margin: auto;
+    width: 75%;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.recette div{
+    border-radius: 30px 0 30px 0;
+    width: 48%;
+}
+.imgrec{
+    object-fit: cover;
+    width: 100%;
+    height: 450px;
+    border-radius: 20px 0 20px 0;
+}
+.imagerecette{
+    box-shadow: 0 0 15px 0 #10943D;
+    width: 100%;
+}
+.detailrecette{
+    box-shadow: 0 0 15px 0 #10943D;
+    line-height: 25px;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: #10943D;
+}
+.detailrecette h3{
+    margin-bottom: 20px;
+}
+.etap{
+    margin: auto;
+    width: 75%;
+    display: flex;
+}
+.titreetape,.clients{
+    font-size: x-large;
+    color: #10943D;
+    margin-bottom: 80px;
+}
+.imagetitreetape{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.etapes{
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.eta{
+    box-shadow: 0 0 15px 0 #10943D;
+    box-sizing: border-box;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    width: 23%;
+    padding: 20px;
+    background-color:white;
+}
+.eta h1{
+    margin-bottom: 15px;
+    font-size: xx-large;
+    color: #10943D;
+}
+.ajoutervalider{
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.clients{
+    margin-bottom: 80px;
+}
+.ajobox{
+    padding: 20px 40px;
+    background-color:#D9D9D9;
+    border-radius: 20px 0 20px 0;
+    margin-right: 40px;
+}
+.valibox{
+    padding: 20px 40px;
+    background-color:#10943D;
+    border-radius: 20px 0 20px 0;
+}
+.valibox:hover{
+    box-shadow: 0 0 15px 0 #10943D;
+    background-color:green;
+}
+.ajobox:hover{
+    background-color: gray;
+    box-shadow: 0 0 15px 0 #10943D;
+}
+.atr{
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.recement{
+    width: 24%;
+    background-color:#D9D9D9;
+    border-radius: 20px;
+}
+.recement:hover{
+    color: #10943D;
+    box-shadow: 0 0 15px 0 #10943D;
+}
+.recement h4{
+    text-align: center;
+    padding: 7px;
+}
+.atrimage{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    border-radius:20px 20px 0 0;
+}
+@media screen and (max-width:1000px){
+    .etapes,.atr,.recette{
+        display: flex;
+        flex-direction: column;
+    }
+    .eta,.recement{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .recette div{
+        width: 100%;
+    }
+}

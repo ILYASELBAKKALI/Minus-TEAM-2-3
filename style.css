@@ -1,0 +1,465 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Unbounded:wght@900&display=swap');
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Kurale&family=Raleway:wght@500&family=Unbounded:wght@900&display=swap');
+
+
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar{
+    padding: 12px;
+    margin: auto;
+    max-width: 75%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.li a:hover{
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #10943D; 
+    color: white; 
+    box-shadow: 0 0 12px 0 #10943D;
+}
+.logo{
+    height: 35px;
+}
+#lg{
+    height: 35px;
+    display: none;
+}
+.menu{
+    position: absolute;
+    display: none;
+    width: 35px;
+}
+.divsearch{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+.search{
+    box-shadow: 0 0 12px 0 #10943D;
+    box-sizing: border-box;
+    color: #10943D;
+    padding: 15px 30px;
+    width: 65%;
+    border-radius: 18px;
+    border: 2px solid #10943D;
+    display: block;
+}
+.sersubmit{
+    box-shadow: 0 0 12px 0 white;
+    box-sizing: border-box;
+    background-color:#10943D ;
+    color: white;
+    padding: 15px 30px;
+    width: 30%;
+    border-radius: 18px;
+    border: 2px solid white;
+    font-size: medium;
+    display: block;
+}
+
+.slideglobale{
+    position: relative;
+    margin-bottom: 80px;
+
+}
+.imagslide{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.surslider{
+    box-sizing: border-box;
+    padding: 25px;
+    width: 30%;
+    background-color: aliceblue;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+    border-radius: 20px 0 20px 0;
+}
+
+.surslider p{
+    width: 80%;
+    padding-bottom: 15px;
+}
+.commander{
+    margin-left:60%;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #10943D;
+}
+.vector{
+    box-sizing: border-box;
+    padding: 0 20px;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    box-shadow: 0 0 15px 0 #10943D;
+    box-sizing: border-box;
+    background-color:#dee5e8;
+    padding: 12px 0;
+}
+.vv{
+    height: 80%;
+}
+.cc{
+    height: 5%;
+    align-items: center;
+}
+.cc h2{
+    vertical-align: middle;
+}
+.menusemaine{
+    color: #10943D;
+    text-align: center;
+    margin: auto;
+    width: 25%;
+    padding-bottom: 18px;
+    border-bottom: 1px solid white ;
+    margin-bottom: 80px;
+}
+
+.imagemenus{
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 100%;
+}
+.bord{
+    box-shadow: 0 0 15px 0 #10943D;
+    text-align: center;
+    width: 21%;
+    height: 300px;
+    border-radius: 20px;
+    background-color:  white;
+
+}
+.vecto{ 
+    width:40px;
+}
+.vect{
+    width: 100%; 
+}
+.quatremenu{
+    margin: auto;
+    max-width: 75%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 80px;
+}
+.savoirplus{
+    background-color: #10943D;
+    border: 1px solid#10943D;
+    color: white;
+    font-size: medium;
+    width: 30%;
+    border-radius: 18px;
+    padding: 15px 0;
+    display: block;
+    margin: auto;
+    
+    text-align: center;
+    margin-bottom: 80px;
+}
+.variete{
+    width: 36%;
+    color: #10943D;
+    border-bottom: 1px solid white;
+    margin: auto;
+    padding-bottom: 18px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.quatrevariete{
+    margin: auto;
+    max-width: 75%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 80px;
+}
+.satisfaction{
+    width: 33%;
+    color: #10943D;
+    border-bottom: 1px solid white;
+    margin: auto;
+    padding: 18px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.les-avis{
+    margin: auto;
+    max-width: 75%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;  
+    margin-bottom: 80px;
+}
+.avis{
+    box-shadow: 0 0 15px 0 #10943D;
+    padding: 20px 20px;
+    background-color:white;
+    border-radius: 20px;
+    width: 25%;
+}
+.dedonavis{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 12px;
+}
+.rond{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avis h1{
+    margin-bottom: 15px;
+}
+.avis p{
+    line-height: 21px;
+}
+.etoile{
+    width: 40%
+}
+.gardez{
+    color: #10943D;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.ne-manquez{
+    color: #10943D;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.adresabonne{
+    display: flex;
+    width: 40%;
+    margin:auto;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.votreadr{
+    box-shadow: 0 0 12px 0 white;
+    box-sizing: border-box;
+    border:1px solid #10943D;
+    border-radius: 18px;
+    padding: 15px 15px;
+    width: 70%;
+    
+}
+.jemabonne{
+    box-shadow: 0 0 12px 0 #10943D;
+    border:1px solid #10943D;
+    background-color:#10943D ;
+    border-radius: 18px;
+    padding: 15px 0;
+    width: 25%;
+    color: white;
+    font-size: medium;
+}
+.jemabonne:hover,.savoirplus:hover,.sersubmit:hover{
+    background-color: #2a934d;
+    color: rgb(129, 126, 90);
+}
+.footer{
+    padding-top: 65px;
+    margin: auto;
+    max-width: 75%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;  
+    margin-bottom: 50px; 
+}
+.logofotter{
+    display: block;
+    margin: auto;
+    height: 35px;
+
+}
+.foot{
+    padding:20px;
+    text-align: center;
+    width: 22%;
+    line-height: 25px;
+}
+.foot ul{
+    line-height: 35px;
+}
+.foot a{
+    font-size: large;
+    color: black;
+}
+.foot a:hover{
+    color: #10943D;
+}
+.logofotter{
+    margin-bottom: 25px;
+}
+.titfooter{
+    color: #10943D;
+    margin-bottom: 25px;
+}
+#Newsletter,#fot{
+    box-sizing: border-box;
+    border-radius: 20px 0 20px 0;
+    padding:20px;
+    background-color:#dee5e8;
+}
+#Newsletter h4{
+    margin-bottom: 15px;
+}
+.nouveaute{
+    padding: 5px 20px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.envoyer{
+    margin-bottom: 15px;
+    background-color: #10943D;
+    padding: 5px 15px;
+    border: #10943D;
+    border-radius: 15px;
+    
+}
+#Newsletter h3{
+    margin-bottom: 15px;
+}
+
+#fot p{
+    font-size: large;
+}
+.sociale{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.enbas{
+    padding: 25px;
+    border-top: 2px solid #10943D;
+    text-align: center;
+}
+.enbas span{
+    font-family: 'Kurale', serif;
+}
+@media screen and (max-width:1000px) {
+    #langue{
+        display: none;
+    }
+    #lg{
+        height: 35px;
+        display: block;
+        position: absolute;
+        top: 18px;
+        left: 10%;
+    }
+
+    .navbar{
+        display: none;
+        position: absolute;
+        right: 10%;
+        top: 50px;
+        z-index: 2;
+        height: 250px;
+        width: 24%;
+        border-radius: 20px;
+        opacity: 0.8;
+        background-color: #10943D;
+        flex-direction: column;
+    }    
+    .menu{
+        cursor: pointer;
+        position: absolute;
+        top: 18px;
+        right: 10%;
+        display: block;
+    }
+    .divsearch{
+        margin: auto;
+        flex-direction: column;
+    }
+    .sersubmit{
+        min-width: 50%;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+    .search{
+        margin-bottom: 15px;
+        margin: auto;
+        min-width: 50%;
+    }
+
+    .quatremenu,.bord, .avis, .foot{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .vecto{
+        display: none;
+    }
+    .quatremenu,.quatrevariete, .les-avis, .footer{
+        flex-direction: column;
+    }
+    .avis{
+        box-sizing: border-box;
+        padding: 20px 20px;
+    }
+    .menusemaine, .variete, .satisfaction{
+        width: 75%;
+    }
+    .adresabonne{
+        flex-direction: column;
+    }
+    .adresabonne input{
+        box-sizing: border-box;
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-bottom: 12px;
+    }
+    .adresabonne button{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .surslider{
+        box-sizing: border-box;
+        width: 80%;
+        left: 0;
+        bottom: 4px;
+    }
+    
+}
